@@ -1,0 +1,68 @@
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  background-color: lightcoral;
+  text-align: center;
+  height: 50px;
+  top: 10;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+nav a:hover {
+  color: lightblue;
+  transition-duration: 0.5s;
+}
+.gc {
+  position: absolute;
+}
+.paragraph {
+  font-size: 50px;
+  margin-top: 650px;
+  color: peachpuff;
+  text-shadow: 2px 2px 2px black;
+}
+html {
+  background-color: lightblue;
+}
+.yaknow {
+  text-align: center;
+}
+.paragraph1 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: peachpuff;
+  text-shadow: 2px 2px 2px black;
+}
+header {
+  text-align: center;
+}
+.paragraph2 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: peachpuff;
+  text-shadow: 2px 2px 2px black;
+}
+@media (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 150%;
+  }
+}
