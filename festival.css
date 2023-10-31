@@ -1,0 +1,63 @@
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  background-color: lightcoral;
+  text-align: center;
+  height: 50px;
+  top: 10;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+header {
+  background-color: lightblue;
+}
+
+header h1 {
+  font-size: 200%;
+  text-align: center;
+}
+
+nav a:hover {
+  color: lightblue;
+  transition-duration: 0.5s;
+}
+
+main {
+  background-color: lightblue;
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+}
+
+html,
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 150%;
+  }
+}
